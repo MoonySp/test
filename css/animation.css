@@ -1,0 +1,111 @@
+.screen-1__heading{
+	transition: all 1s;
+}
+.screen-1__heading_animation_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-1__heading_animation_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.screen-1__subheading{
+	transition: all 1s;
+}
+.screen-1__subheading_animation_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-1__subheading_animation_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+/*第二屏动画元素*/
+.screen-2__wrap__heading{
+	transition: all 1s;
+}
+.screen-2__wrap__heading_animation_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-2__wrap__heading_animation_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.screen-2__wrap__subheading{
+	transition: all 1s;
+}
+.screen-2__wrap__subheading_animation_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-2__wrap__subheading_animation_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.screen-2__wrap__bgi-1{
+	transition: all 1s;
+}
+.screen-2__wrap__bgi-1_animation_init{
+	opacity: 0;
+}
+.screen-2__wrap__bgi-1_animation_done{
+	opacity: 1;
+}
+
+.screen-2__wrap__bgi-2_animation_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-2__wrap__bgi-2{
+	transition: all 1s;
+}
+@-webkit-keyframe kick-back{
+	0%{-webkit-transform: translate(0,100%);}
+	50%{-webkit-transform: translate(0,0);}
+	80%{-webkit-transform: translate(0,-10%);}
+	100%{-webkit-transform: translate(0,0);}
+}
+.screen-2__wrap__bgi-2_animation_done{
+	opacity: 1;
+	-webkit-animation: kick-back 1s ease-in-out 1s  normal ;
+	-o-animation: kick-back 1s ease-in-out 1s  normal ;
+	animation: kick-back 1s ease-in-out 1s  normal ;
+}
+/*第三屏动画元素*/
+
+.screen-3__wrap__content-heading{
+	transition: all 1s;
+}
+.screen-3__wrap__content-heading_animation_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-3__wrap__content-heading_animation_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.screen-3__wrap__content-subheading{
+	transition: all 1s;
+}
+.screen-3__wrap__content-subheading_animation_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-2__wrap__content-subheading_animation_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+.screen-3__wrap__bg{
+	transition: all .5s;
+}
+.screen-3__wrap__bg_animation_init{
+	transform: scale(.2,.2);
+}
+.screen-3__wrap__bg_animation_done{
+	transform: scale(1,1);
+}
+.screen-3__lang_animate{
+	transition: all
+}
+
